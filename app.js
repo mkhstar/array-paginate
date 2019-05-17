@@ -20,3 +20,5 @@ const myPagination = (array, page = 1, limit = 10)=> {
     docs: paginatedItems
   };
 }
+
+module.exports = myPagination;
